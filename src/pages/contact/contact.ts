@@ -17,7 +17,7 @@ import { IonicPage, NavController, NavParams, ToastController } from 'ionic-angu
 export class ContactPage {
 
   phoneNumber : string;
-  textMessage: string;
+  textMessage : string;
 
   constructor(private toast : ToastController, private sms: SMS, public navCtrl: NavController, public navParams: NavParams) {
   }

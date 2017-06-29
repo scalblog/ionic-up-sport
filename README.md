@@ -1,26 +1,20 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+Appli mobile UX UI
+IONIC 3
 
-## How to use this template
+Appli mobile pour UP! Unis Pour le Sport (Paris)
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
+UX UI :
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
+l'application doit mobiliser les bénévoles et motiver les personnes en difficulté sociale à s'inscrire aux activités, ateliers, rencontres, loisirs...
 
-### With the Ionic CLI:
+Contacts :
+par formulaire de contact tradtionnel
+par SMS depuis l'appli pour permettre aux personnes fragilisées de s'inscrire facilement aux ateliers depuis l'appli par un simple SMS pré-rempli
+C'est le bénévole qui gère l'activité concernée qui reçoit les SMS : ainsi la prise de contact est simplifiée et le bénévole peut s'assurer de l'intérêt de l'inscrit pour l'activité choisie
 
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
+BDD :
+Attente du projet IONIC DB
+pour y partager plus facilement le calendrier des activités accessibles depuis l'appli
 
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myTutorial tutorial
-```
-
-Then, to run it, cd into `myTutorial` and run:
-
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
-```
-
-Substitute ios for android if not on a Mac.
-
+Pour plus d'informations :
+http://unispourlesport.paris
