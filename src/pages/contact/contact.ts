@@ -16,8 +16,8 @@ import { IonicPage, NavController, NavParams, ToastController } from 'ionic-angu
 })
 export class ContactPage {
 
-  phoneNumber : string;
-  textMessage : string;
+  public phoneNumber : string = "+33661908251";
+  public textMessage : string ="test";
 
   constructor(private toast : ToastController, private sms: SMS, public navCtrl: NavController, public navParams: NavParams) {
   }
@@ -46,6 +46,7 @@ export class ContactPage {
       duration : 3000
     });
     toast.present();
+    console.log(e);
     }
 
   }
