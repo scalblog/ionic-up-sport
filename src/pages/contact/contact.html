@@ -7,7 +7,10 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>Nous contacter</ion-title>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Pour nous contacter</ion-title>
   </ion-navbar>
 
 </ion-header>
@@ -35,7 +38,7 @@
   </ion-list>
 
     <p  text-center>
-      <button ion-button round>Envoyer le message par Email</button>
+      <button ion-button round color="greenpop">Envoyer le message par Email</button>
     </p>
 
     <ion-card>
@@ -52,15 +55,15 @@
           <ion-input [(ngModel)]="textMessage" type="text"></ion-input>
         </ion-item>
         <ion-item>
-          <button ion-button clear item-right icon-end (click)="sendTextMessage()">
+          <button ion-button clear item-right icon-end color="greenpop" (click)="sendTextMessage()">
           ENVOYER LE SMS
-          <ion-icon name="paper-plane"></ion-icon>
+          <ion-icon name="paper-plane" color="greenpop"></ion-icon>
           </button>
         </ion-item>
         
       </ion-card-content>
     </ion-card>
     <p text-center>
-      <button ion-button color="primary" round outline menuToggle>Afficher le Menu</button>
+      <button ion-button color="greenpop" round outline menuToggle>Afficher le Menu</button>
     </p>
 </ion-content>

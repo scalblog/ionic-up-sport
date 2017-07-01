@@ -17,7 +17,7 @@ import { IonicPage, NavController, NavParams, ToastController } from 'ionic-angu
 export class ContactPage {
 
   public phoneNumber : string = "+33661908251";
-  public textMessage : string ="test";
+  public textMessage : string ="Bonjour. Je souhaite m'inscrire au prochain Run'Up. A bientôt.";
 
   constructor(private toast : ToastController, private sms: SMS, public navCtrl: NavController, public navParams: NavParams) {
   }
