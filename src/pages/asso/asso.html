@@ -10,36 +10,22 @@
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>L'association</ion-title>
+    <ion-title>Nos prochains rendez-vous</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding>
-  <p>Laissez-nous vous présenter notre association et ses missions.</p>
-  <p>Nous sommes une association de bénévoles (Loi 1901) qui aidont les personnes volontaires à se remettre à la pratique sportive, à leur rythme et pour lutter contre la fragilité sociale. </p>
-
-  <ion-card>
-
-    <ion-card-header color="greenpop">
-      Le mot du Président, Romain
-    </ion-card-header>
-
-    <ion-card-content>
-      <!-- Add card content here! -->
-      <p>Vous êtes toutes et tous les bienvenus pour vous mettre au sport et faire un peu d'activité physique avec nous.<br/>Nos activités sont gratuites.</p>
-    </ion-card-content>
-
-  </ion-card>
-
+  
+  <!--
   <ion-list>
     <ion-item>
       <ion-icon name="leaf" item-start></ion-icon>
         Herbology
     </ion-item>
   </ion-list>
-
+  -->
   <ion-list>
     <button ion-item>
       <ion-icon name="walk" item-start color="purple"></ion-icon>
@@ -83,6 +69,21 @@
     </button>
   </ion-list>
 
+  <ion-card>
+
+    <ion-card-header color="greenpop">
+      Le mot du Président, Romain
+    </ion-card-header>
+
+    <ion-card-content>
+      <!-- Add card content here! -->
+      <p>Vous êtes toutes et tous les bienvenus pour vous mettre au sport et faire un peu d'activité physique avec nous.<br/>Nos activités sont gratuites.</p>
+    </ion-card-content>
+
+  </ion-card>
+   <p text-center>
+    <button ion-button color="greenpop" round (click)="openContact()" >Envie de nous aider ?</button>
+  </p>
   <p text-center>
     <button ion-button color="greenpop" round outline menuToggle>Afficher le Menu</button>
   </p>

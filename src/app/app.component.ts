@@ -32,10 +32,10 @@ export class MyApp {
 
     // set our app's pages
     this.pages = [
-      { title: 'Hello Ionic', component: HelloIonicPage },
+      { title: 'Page d\'accueil', component: HelloIonicPage },
       { title: 'My First List', component: ListPage },
-      { title: 'Notre association', component: AssoPage },
-      { title: 'L\'équipe', component: TeamPage },
+      { title: 'Nos activités', component: AssoPage },
+      { title: 'Notre association / notre équipe', component: TeamPage },
       { title: 'Nous contacter', component: ContactPage }
     ];
   }
